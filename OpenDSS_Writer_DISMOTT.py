@@ -387,7 +387,7 @@ def convert_lineunder(Cablelist, CableConcentricNeutrallist, CableInsulationlist
 			print ('do not identified phase')
 		
 		#TODO: change if cable type has 0 R1
-		if lineund.LineCableID in ['CableWith0R1']:
+		if lineund.LineCableID in ['CableWith0R1','Cable2With0R1']:
 			Line = Line + ' R1=1.00E-07 R0=0 X1=0 X0=0 B1=0 B0=0 length=1'
 		else:	
 			Line = Line + ' geometry='+ lineund.DeviceNumber
