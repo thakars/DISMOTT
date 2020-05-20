@@ -1,5 +1,7 @@
 # DISMOTT
-Distribution System Model Transformation Tool developed by Karen Montano and Sushrut Thakar: Used to convert CYME model (CYME 8.XX) to an OpenDSS model. This tool was created at Arizona State University for their projects.
+Developed by Karen Montano and Sushrut Thakar
+
+Distribution System Model Transformation Tool: Used to convert CYME model (CYME 8.XX) to an OpenDSS model. This tool was created at Arizona State University for their projects.
 
 # Usage of the tool
 To use the tool the following steps should be addressed:
