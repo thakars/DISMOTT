@@ -18,4 +18,8 @@ c. (72) Choose how the line impedances are calculated:
   
  d. (73) If 'Impedances' is choses in previous step, write '.csv' file name accordingly. If 'Definitions' is selected, this does not affect.
 
+2. Reader code: There is no change needed*. 
+
+*User should verify that all the sections in their '.txt. files (equipment.txt, load.txt and network.txt) are been readed, if so, no changes are needed. If user find a section is not been reading, user should add the section to be read in the code.
+
 # Other information
