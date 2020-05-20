@@ -49,3 +49,4 @@ e. (660) Select the loadmodel name from CYMEDIST. This can be found in the table
 # Other information
 
 1. System units is configured in meters.
+2. User must install the following packages in Python to use the code: os, collections, math, numpy and cmath.
