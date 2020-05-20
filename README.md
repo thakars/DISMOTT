@@ -47,3 +47,5 @@ d. (549) Select the loadmodel number from CYMEDIST. This can be found in the tab
 e. (660) Select the loadmodel name from CYMEDIST. This can be found in the table [LOAD MODEL INFORMATION] in 'load.txt' file. The defaulf is 'DEFAULT' (change 'LoadModelName'). 
 
 # Other information
+
+1. System units is configured in meters.
