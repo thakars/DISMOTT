@@ -1,0 +1,7 @@
+1. Main file writer: need to specify in readme what changes are needed if impedances are used.
+2. Need to specify in readme how/where to add cable installation geometry
+3. (389 of writer) need to specify in readme to specify cabletypes with 0 R1 there
+4. (550 of writer) need to specify in readme to select required load model there
+5. (660 of writer) need to specify in readme to mention required load model for PV there, for now, edit line 659 and put some load model (=1?)
+6. (800/890 of writer) switch and cabinate number doesn't work - nonessential for the model creation. Pertains to csv
+7. General instructions on how to run the model.
