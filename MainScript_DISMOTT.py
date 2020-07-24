@@ -41,7 +41,12 @@ if __name__ == "__main__":
 	#write opendss files
 	#change folder
 	#os.makedirs(casename)
-	os.chdir(casename)
+	try:
+		os.chdir(casename)
+	except FileNotFoundError:
+		print('The folder with the casename {} was not present, so created it.'.format(casename))
+		os.makedirs(casename)
+		os.chdir(casename)
 		
 	DSSMaster = writer.convert_master(Substationlist, HeadNodeslist, Sourcelist, SourceEquivalentlist, Feederlist, Transformerlist, casename)
 	writer.writefileopendss('Master.dss', DSSMaster, 0)
