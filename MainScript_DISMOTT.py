@@ -40,7 +40,6 @@ if __name__ == "__main__":
 	
 	#write opendss files
 	#change folder
-	#os.makedirs(casename)
 	try:
 		os.chdir(casename)
 	except FileNotFoundError:
