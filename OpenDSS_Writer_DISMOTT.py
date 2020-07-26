@@ -88,7 +88,7 @@ def convert_master(Substationlist, HeadNodeslist, Sourcelist, SourceEquivalentli
 def convert_linespacing(Cablelist, CableConcentricNeutrallist, CableInsulationlist, CableConductorlist, Conductorlist, SpacingTableForLinelist, OverheadByphaseSettinglist, UndergroundlineSettinglist, Sectionlist):
 	DSSLinespacing = []
 	for linespace in SpacingTableForLinelist:
-		Line = 'New Linespacing.'+ linespace.ID.replace(" ","_")
+		Line = 'New Linespacing.'+ linespace.ID.replace(" ","_").replace(".","_")
 		if linespace.NBPhasesPerCircuit == '':
 			continue
 		Line = Line + ' nconds='+str(int(linespace.NBPhasesPerCircuit)*int(linespace.NBConductorsPerPhase)+int(linespace.NBNeutrals))
@@ -229,7 +229,7 @@ def convert_linegeometryover(Cablelist, CableConcentricNeutrallist, CableInsulat
 		
 		Line = Line + ' nconds=' + str(len(Sectionlist[overheadindex].Phase)) 
 		Line = Line + ' nphases=' + str(len(Sectionlist[overheadindex].Phase)) 
-		Line = Line + ' spacing='+linegeo.SpacingID.replace(" ","_")
+		Line = Line + ' spacing='+linegeo.SpacingID.replace(" ","_").replace(".","_")
 		Line = Line + ' wires='+ "["+linegeo.CondID_A +" " + linegeo.CondID_B+" " + linegeo.CondID_C +"]"
 
 		if len(Sectionlist[overheadindex].Phase) > len(Sectionlist[overheadindex].Phase):
