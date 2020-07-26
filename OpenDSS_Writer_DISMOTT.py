@@ -952,7 +952,6 @@ def LineImpedances(csvname, UndergroundlineSettinglist, SwitchSettinglist, Break
 			DSSLine = DSSLine + ' phases='+str(len(Line[5]))
 			DSSLine = DSSLine + ' LineCode='+Line[2].replace(".","_")+"_"+str(len(Line[5]))+"_"+Line[9]+"Cond"
 			DSSLine = DSSLine + ' NormAmps='+Line[13]
-			DSSLine = DSSLine + '\n'
 			OpenDSSlist.append(DSSLine)
 	
 	return OpenDSSlist
