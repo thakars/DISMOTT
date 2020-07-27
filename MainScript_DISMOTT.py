@@ -99,7 +99,7 @@ if __name__ == "__main__":
 		writer.writefileopendss('linecodes.dss', DSSLineCodes, 0)
 		
 	
-	DSSTransformerscodes, CSVTransformers = writer.convert_transformercodes(Transformerlist, TransformerSettinglist)
+	DSSTransformerscodes, CSVTransformers = writer.convert_transformercodes(Transformerlist)
 	writer.writefileopendss('transformerscodes.dss', DSSTransformerscodes, 0)
 	writer.writefileopendss('Transformers.csv', CSVTransformers, 0)
 	
