@@ -402,7 +402,7 @@ def convert_lineunder(Cablelist, CableConcentricNeutrallist, CableInsulationlist
 		
 	return DSSLinesUnder, CSVLinesUnder
 
-def convert_transformercodes(Transformerlist, TransformerSettinglist):
+def convert_transformercodes(Transformerlist):
 	DSSTransformerscodes = []
 	CSVTransformers = ['Code ID, phases, R, X, Vprimary, Vsecondary, KVA']
 	
