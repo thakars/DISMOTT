@@ -42,7 +42,7 @@ a. (50 - 69) The OpenDSS writer would create all the files specified here, howev
 
 b. (begining 260) If 'Definitions' is selected in 1c, user shoud use the cable layout there to fill the information necesary for all cable types in their system. 
 
-c. (390) If one or more cables have R1=0, cables name must be spefified here.
+c. (390) If one or more cables have R1=0, cables name must be specified here.
 
 d. (549) Select the loadmodel number from CYMEDIST. This can be found in the table [LOAD MODEL INFORMATION] in 'load.txt' file. The defaulf is '1'.  
 
