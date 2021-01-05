@@ -3,6 +3,8 @@ Developed by Karen Montano and Sushrut Thakar
 
 Distribution System Model Transformation Tool: Used to convert CYME model (CYME 8.XX) to an OpenDSS model. This tool was created at Arizona State University as a part of their projects.
 
+**The level of accuracy of this tool is above 99%** - power flow results comparison between CYME and OpenDSS. This tool was tested in several (>5) utility's feeders.
+
 # Usage of the tool
 To use the tool the following steps should be addressed:
 
