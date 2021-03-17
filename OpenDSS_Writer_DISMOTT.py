@@ -28,7 +28,7 @@ def convert_master(Substationlist, HeadNodeslist, Sourcelist, SourceEquivalentli
 	DSSMaster = []
 	DSSMaster.append('!Master File for case {}\n'.format(casename))
 	DSSMaster.append('Clear\n'.format(casename))
-	DSSMaster.append('Set Datapath = "{}\{}"\n'.format(os.path.dirname(os.path.abspath(__file__)),casename))
+	DSSMaster.append('Set Datapath = "{}"\n'.format(os.getcwd(),casename))
 	Line = 'New Circuit.'+casename
 	Line = Line + ' bus1='+Sourcelist[0].NodeID.replace(".","_")+'.1.2.3'
 	Line = Line + ' BasekV='+SourceEquivalentlist[0].Voltage
